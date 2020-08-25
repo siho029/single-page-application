@@ -38,19 +38,26 @@ main {
     overflow: auto;
 }
 
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+    background-size: cover;
+    background-position: bottom left;
+}
+
 #orange {
+    background-image: url(./images/John-Arne-Riise-liverpool.jpg);
     background-color: orange;
+    background-position: top left;
 }
 
 #pink {
+    background-image: url(./images/sjaman-durek.jpeg);
     background-color: pink;
+    background-position: top right;
 }
 
 #peachpuff {
     background-color: green;
 }
 
-section {
-    height: 100vh;
-    scroll-snap-align: center;
-}
